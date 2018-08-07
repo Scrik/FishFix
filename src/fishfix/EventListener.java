@@ -28,7 +28,19 @@ public class EventListener implements Listener {
 					|| b.getType() == Material.DARK_OAK_DOOR || b.getType() == Material.FENCE_GATE
 					|| b.getType() == Material.SPRUCE_FENCE_GATE || b.getType() == Material.BIRCH_FENCE_GATE
 					|| b.getType() == Material.JUNGLE_FENCE_GATE || b.getType() == Material.DARK_OAK_FENCE_GATE
-					|| b.getType() == Material.ACACIA_FENCE_GATE) {
+					|| b.getType() == Material.ACACIA_FENCE_GATE || b.getType() == Material.CHEST
+					|| b.getType() == Material.TRAPPED_CHEST || b.getType() == Material.REDSTONE_COMPARATOR_OFF
+					|| b.getType() == Material.REDSTONE_COMPARATOR_ON || b.getType() == Material.BED
+					|| b.getType() == Material.WHITE_SHULKER_BOX || b.getType() == Material.ORANGE_SHULKER_BOX
+					|| b.getType() == Material.MAGENTA_SHULKER_BOX || b.getType() == Material.LIGHT_BLUE_SHULKER_BOX
+					|| b.getType() == Material.LIME_SHULKER_BOX || b.getType() == Material.PINK_SHULKER_BOX
+					|| b.getType() == Material.GRAY_SHULKER_BOX || b.getType() == Material.SILVER_SHULKER_BOX
+					|| b.getType() == Material.CYAN_SHULKER_BOX || b.getType() == Material.PURPLE_SHULKER_BOX
+					|| b.getType() == Material.BLUE_SHULKER_BOX || b.getType() == Material.BROWN_SHULKER_BOX
+					|| b.getType() == Material.GREEN_SHULKER_BOX || b.getType() == Material.WHITE_SHULKER_BOX
+					|| b.getType() == Material.RED_SHULKER_BOX || b.getType() == Material.BLACK_SHULKER_BOX
+					|| b.getType() == Material.DAYLIGHT_DETECTOR || b.getType() == Material.DIODE_BLOCK_ON
+					|| b.getType() == Material.DIODE_BLOCK_OFF) {
 				boolean bo = false;
 				if (s1 != null) {
 					if (s1.getType() == Material.FISHING_ROD) {
